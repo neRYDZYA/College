@@ -1,0 +1,20 @@
+﻿uses graphABC;
+begin
+  line(400,350,150,350);
+  line(280,150,230,350);
+  line(320,350,280,150);
+  floodfill(281,152,clred); 
+  line(400,350,500,200);
+  line(314,320,500,200);
+  line(150,350,30,200);
+  line(240,315,30,200);
+  circle(30,200,20);
+  floodfill(30,200,clblue);
+  circle(500,200,20);
+  floodfill(500,200,cllime);
+  circle(280,150,20);
+  floodfill(280,150,clred);
+floodfill(250,325,clred);
+floodfill(175,325,clblue);
+floodfill(400,325,cllime);
+end.
