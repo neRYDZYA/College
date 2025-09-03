@@ -1,0 +1,228 @@
+object Form1: TForm1
+  Left = 289
+  Height = 328
+  Top = 277
+  Width = 363
+  Caption = 'Калькулятор'
+  ClientHeight = 328
+  ClientWidth = 363
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.8.0.0'
+  object Edit1: TEdit
+    Left = 30
+    Height = 28
+    Top = 15
+    Width = 301
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Button1: TButton
+    Left = 30
+    Height = 41
+    Top = 200
+    Width = 40
+    Caption = '1'
+    TabOrder = 1
+    OnClick = OneClick
+  end
+  object Button2: TButton
+    Left = 30
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '4'
+    TabOrder = 2
+    OnClick = FourClick
+  end
+  object Button3: TButton
+    Left = 30
+    Height = 41
+    Top = 96
+    Width = 40
+    Caption = '7'
+    TabOrder = 3
+    OnClick = SevenClick
+  end
+  object Button4: TButton
+    Left = 88
+    Height = 41
+    Top = 96
+    Width = 40
+    Caption = '8'
+    TabOrder = 4
+    OnClick = EightClick
+  end
+  object Button5: TButton
+    Left = 152
+    Height = 41
+    Top = 96
+    Width = 40
+    Caption = '9'
+    TabOrder = 5
+    OnClick = NineClick
+  end
+  object Button6: TButton
+    Left = 216
+    Height = 41
+    Top = 96
+    Width = 40
+    Caption = '/'
+    TabOrder = 6
+    OnClick = ClickZnak
+  end
+  object Button7: TButton
+    Left = 280
+    Height = 41
+    Top = 96
+    Width = 40
+    Caption = 'x^2'
+    TabOrder = 7
+    OnClick = SqrClick
+  end
+  object Button8: TButton
+    Left = 88
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '5'
+    TabOrder = 8
+    OnClick = FiveClick
+  end
+  object Button9: TButton
+    Left = 152
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '6'
+    TabOrder = 9
+    OnClick = SixClick
+  end
+  object Button10: TButton
+    Left = 216
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '*'
+    TabOrder = 10
+    OnClick = ClickZnak
+  end
+  object Button11: TButton
+    Left = 280
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '1/x'
+    TabOrder = 11
+    OnClick = OneDivXClick
+  end
+  object Button12: TButton
+    Left = 88
+    Height = 41
+    Top = 200
+    Width = 40
+    Caption = '2'
+    TabOrder = 12
+    OnClick = TwoClick
+  end
+  object Button13: TButton
+    Left = 152
+    Height = 41
+    Top = 200
+    Width = 40
+    Caption = '3'
+    TabOrder = 13
+    OnClick = ThreeClick
+  end
+  object Button14: TButton
+    Left = 216
+    Height = 41
+    Top = 200
+    Width = 40
+    Caption = '-'
+    TabOrder = 14
+    OnClick = ClickZnak
+  end
+  object Button15: TButton
+    Left = 280
+    Height = 89
+    Top = 200
+    Width = 40
+    Caption = '='
+    TabOrder = 15
+    OnClick = EqualClick
+  end
+  object Button16: TButton
+    Left = 30
+    Height = 41
+    Top = 248
+    Width = 98
+    Caption = '0'
+    TabOrder = 16
+    OnClick = ZeroClick
+  end
+  object Button17: TButton
+    Left = 152
+    Height = 41
+    Top = 248
+    Width = 40
+    Caption = ','
+    TabOrder = 17
+    OnClick = PointClick
+  end
+  object Button18: TButton
+    Left = 216
+    Height = 41
+    Top = 248
+    Width = 40
+    Caption = '+'
+    TabOrder = 18
+    OnClick = ClickZnak
+  end
+  object Button19: TButton
+    Left = 32
+    Height = 41
+    Top = 48
+    Width = 96
+    Caption = '<-'
+    TabOrder = 19
+    OnChangeBounds = MinusXClick
+    OnClick = DelLastSimClick
+  end
+  object Button20: TButton
+    Left = 152
+    Height = 41
+    Top = 48
+    Width = 40
+    Caption = 'ce'
+    TabOrder = 20
+    OnClick = CEClick
+  end
+  object Button21: TButton
+    Left = 216
+    Height = 41
+    Top = 48
+    Width = 40
+    Caption = 'c'
+    TabOrder = 21
+    OnClick = ClearStrClick
+  end
+  object Button22: TButton
+    Left = 280
+    Height = 41
+    Top = 48
+    Width = 40
+    Caption = 'Кор'
+    TabOrder = 22
+    OnClick = SqrtClick
+  end
+  object Button23: TButton
+    Left = 152
+    Height = 26
+    Top = 297
+    Width = 171
+    Caption = '- перед числом'
+    TabOrder = 23
+    OnClick = MinusXClick
+  end
+end

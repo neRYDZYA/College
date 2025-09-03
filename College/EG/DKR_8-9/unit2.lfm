@@ -1,0 +1,191 @@
+object frmEditAgent: TfrmEditAgent
+  Left = 609
+  Height = 425
+  Top = 233
+  Width = 449
+  BorderStyle = bsDialog
+  Caption = 'Редактор Агента'
+  ClientHeight = 425
+  ClientWidth = 449
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '3.8.0.0'
+  object dtpRelease: TDateTimePicker
+    Left = 177
+    Height = 28
+    Top = 121
+    Width = 99
+    CenturyFrom = 1941
+    MaxDate = 2958465
+    MinDate = -53780
+    TabOrder = 0
+    TrailingSeparator = False
+    TextForNullDate = 'NULL'
+    LeadingZeros = True
+    Kind = dtkDate
+    TimeFormat = tf24
+    TimeDisplay = tdHMS
+    DateMode = dmComboBox
+    Date = 45825
+    Time = 0.00515791666839505
+    UseDefaultSeparators = True
+    HideDateTimeParts = []
+    MonthNames = 'Long'
+  end
+  object Label1: TLabel
+    Left = 11
+    Height = 20
+    Top = 121
+    Width = 156
+    Caption = 'Введите дату рожения'
+  end
+  object cmbRole: TComboBox
+    Left = 144
+    Height = 28
+    Top = 163
+    Width = 132
+    ItemHeight = 20
+    TabOrder = 1
+    OnClick = FormCreate
+  end
+  object btnSave: TButton
+    Left = 56
+    Height = 43
+    Top = 376
+    Width = 127
+    Caption = 'Сохранить агента'
+    TabOrder = 2
+    OnClick = btnSaveClick
+  end
+  object btnCancel: TButton
+    Left = 288
+    Height = 43
+    Top = 376
+    Width = 110
+    Caption = 'Отменить'
+    TabOrder = 3
+    OnClick = btnCancelClick
+  end
+  object cbUnlocked: TCheckBox
+    Left = 152
+    Height = 20
+    Top = 200
+    Width = 21
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Left = 11
+    Height = 20
+    Top = 165
+    Width = 94
+    Caption = 'Введите роль'
+  end
+  object edtName: TEdit
+    Left = 144
+    Height = 28
+    Top = 23
+    Width = 132
+    TabOrder = 5
+  end
+  object edtOrigin: TEdit
+    Left = 144
+    Height = 28
+    Top = 56
+    Width = 132
+    TabOrder = 6
+  end
+  object edtKDA: TEdit
+    Left = 144
+    Height = 28
+    Top = 88
+    Width = 132
+    TabOrder = 7
+  end
+  object edtPickRate: TEdit
+    Left = 144
+    Height = 28
+    Top = 224
+    Width = 132
+    TabOrder = 8
+  end
+  object edtUltimateCost: TEdit
+    Left = 144
+    Height = 28
+    Top = 264
+    Width = 132
+    TabOrder = 9
+  end
+  object edtUltimateName: TEdit
+    Left = 144
+    Height = 28
+    Top = 304
+    Width = 132
+    TabOrder = 10
+  end
+  object edtWinRate: TEdit
+    Left = 144
+    Height = 28
+    Top = 336
+    Width = 132
+    TabOrder = 11
+  end
+  object Label3: TLabel
+    Left = 11
+    Height = 20
+    Top = 23
+    Width = 88
+    Caption = 'Введите имя'
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 20
+    Top = 56
+    Width = 94
+    Caption = 'Введите роль'
+  end
+  object Label5: TLabel
+    Left = 11
+    Height = 20
+    Top = 344
+    Width = 83
+    Caption = 'Введите WR'
+    OnClick = Label5Click
+  end
+  object Label6: TLabel
+    Left = 11
+    Height = 20
+    Top = 312
+    Width = 112
+    Caption = 'Название ульты'
+  end
+  object Label8: TLabel
+    Left = 8
+    Height = 20
+    Top = 200
+    Width = 115
+    Caption = 'Разблокирован?'
+  end
+  object Label9: TLabel
+    Left = 11
+    Height = 20
+    Top = 88
+    Width = 90
+    Caption = 'Введите KDA'
+  end
+  object Label10: TLabel
+    Left = 8
+    Height = 20
+    Top = 224
+    Width = 119
+    Caption = 'Процент выбора'
+    OnClick = Label10Click
+  end
+  object Label11: TLabel
+    Left = 11
+    Height = 20
+    Top = 264
+    Width = 80
+    Caption = 'Цена ульты'
+  end
+end
